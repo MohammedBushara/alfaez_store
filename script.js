@@ -8,7 +8,6 @@ const SITE_CONFIG = {
   customOrdersEnabled: true,
 };
 
-
 // WhatsApp =========================================== //
 
 function buildWhatsAppUrl(message) {
@@ -182,7 +181,6 @@ function initializeCopyrightYear() {
     yearElement.textContent = new Date().getFullYear();
   }
 }
-
 
 function initializeWebsite() {
   configureWhatsAppLinks();
