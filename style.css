@@ -1,3 +1,31 @@
+/* noto-kufi-arabic-600 - arabic_latin */
+@font-face {
+  font-display: swap;
+  font-family: "Noto Kufi Arabic";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/noto-kufi-arabic-v27-arabic_latin-600.woff2") format("woff2");
+}
+
+/* ibm-plex-sans-arabic-regular - arabic_latin */
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Sans Arabic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/ibm-plex-sans-arabic-v15-arabic_latin-regular.woff2")
+    format("woff2");
+}
+/* ibm-plex-sans-arabic-600 - arabic_latin */
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Sans Arabic";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/ibm-plex-sans-arabic-v15-arabic_latin-600.woff2")
+    format("woff2");
+}
+
 :root {
   color-scheme: light;
   --walnut: #2a1e19;
@@ -128,20 +156,6 @@ em {
   font-style: normal;
 }
 
-.skip-link {
-  position: fixed;
-  z-index: 1000;
-  top: 12px;
-  right: 12px;
-  padding: 12px 18px;
-  background: var(--white);
-  color: var(--walnut);
-  transform: translateY(-160%);
-}
-
-.skip-link:focus {
-  transform: translateY(0);
-}
 /* ================================================================================ */
 
 /* الرأس والتنقل */
@@ -190,7 +204,7 @@ em {
 .brand-copy strong {
   font-family: var(--font-heading);
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .brand-copy small {
@@ -318,7 +332,7 @@ em {
   margin-bottom: 18px;
   color: var(--rose);
   font-size: 0.83rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .eyebrow > span {
@@ -661,7 +675,7 @@ em {
   align-items: center;
   gap: 13px;
   color: var(--rose);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 0.9rem;
 }
 
